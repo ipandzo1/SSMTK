@@ -24,5 +24,6 @@ korisničkih uređaja.
 Raspberry Pi računaru sa 5G komunikacijskim modulom i eksperimentalne 5G bazne
 stanice. 
 
-Realizovana je mreža sačinjena od uređaja: Raspberry Pi računara sa 5G komunikacijskim modulom, 5G 
-bazne stanice AMARISOFT CallBox Classic i 
+Realizovana je mreža sačinjena od uređaja: Raspberry Pi računara sa 5G komunikacijskim modulom,
+5G bazne stanice AMARISOFT CallBox Classic i ZYXEL modela NR5101 - 5G New Radio Gateway. 
+
