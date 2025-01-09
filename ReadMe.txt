@@ -46,9 +46,9 @@ modula na Raspberry Pi računaru. Prikupljene vrijednosti metrika je potrebno sp
 CSV datoteku. 
 
 
-Implementirana je skripta za prikupljanja metrika sa 5G modula na Rasberry Pi računara.
+Implementirana je skripta qeng.py za prikupljanja metrika sa 5G modula na Rasberry Pi računara.
 Korištene su komande iz dokumentacije 5G modula u upotrebi Quectl RG500Q-GL.
-Skripta je kreirala traženu CSV datoteku koja je prethodno opisana.
+Skripta je kreirala traženu CSV datoteku metrics.csv koja je prethodno opisana.
 
 
 Preostale stavke će biti urađene u nastavku izrade projektnog zadatka.
