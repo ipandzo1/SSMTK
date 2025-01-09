@@ -19,3 +19,10 @@ utvrditi na koji način su korelisana.
 te izvršiti testiranje usluge prenosa podataka uz prikupljanje metrika za različit broj aktivnih
 korisničkih uređaja.
 
+#Izrada:
+1. Realizirati mrežu za prenos podataka sačinjenu od korisničkih uređaja baziranih na
+Raspberry Pi računaru sa 5G komunikacijskim modulom i eksperimentalne 5G bazne
+stanice. 
+
+Realizovana je mreža sačinjena od uređaja: Raspberry Pi računara sa 5G komunikacijskim modulom, 5G 
+bazne stanice AMARISOFT CallBox Classic i 
