@@ -1,4 +1,4 @@
-# Projekat TEMA 1: Razvoj aplikacije za prikupljanje metrika iz eksperimentalne 5G mreže za prenos podataka
+# TEMA 1: Razvoj aplikacije za prikupljanje metrika iz eksperimentalne 5G mreže za prenos podataka
 
 ## Postavka zadatka
 
