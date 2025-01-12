@@ -23,3 +23,7 @@ Napravljena je skripta koja putem Remote API-ja prikuplja podatke sa bazne stani
 Implementirana je skripta `qeng.py` za prikupljanje metrika sa 5G modula na Raspberry Pi računaru. Korištene su komande iz dokumentacije 5G modula u upotrebi Quectl RG500Q-GL. Skripta je kreirala traženu CSV datoteku `metrics.csv` koja je prethodno opisana.
 
 Preostale stavke će biti urađene u nastavku izrade projektnog zadatka.
+
+## Literatura
+
+[1] https://tech-academy.amarisoft.com/RemoteAPI_Python.html?fbclid=IwY2xjawHxBRtleHRuA2FlbQIxMAABHfwqKmdrzcyIm2S0pP-jU3k3pf9CRtq1mfuVHuCnKGYWykr4CxvXI8yRIQ_aem_Zl0GhSs5jDZUbE-Zr8OORw
