@@ -11,8 +11,12 @@
 ## Korišteni uređaji
 
 ### Raspberry Pi računar 
-Raspberry Pi je računarski uređaj zasnovan na ARM procesoru.Ističe se zbog svoje fleksibilnosti i niske cijene, te dolazi u različitim modelima sa različitim specifikacijama. Njegov operativni sistem je Raspberry Pi OS (Linux varijanta). Popularan je u IoT projektima zbog svojih kompaktnih dimenzija, te  mogućnosti povezivanja sa senzorima i drugim uređajima sa kojih može vršiti prikupljanje metrika. Moguće povezivanje: Ethernet, Wi-Fi, Bluetooth, USB portovi. U našem projektnom zadatku, Raspberry Pi vrši prikupljanje metrika sa 5G komunikacijskog modula. 
+Raspberry Pi je računarski uređaj zasnovan na ARM procesoru. Ističe se zbog svoje fleksibilnosti i niske cijene, te dolazi u različitim modelima sa različitim specifikacijama. Njegov operativni sistem je Raspberry Pi OS (Linux varijanta). Popularan je u IoT projektima zbog svojih kompaktnih dimenzija, te  mogućnosti povezivanja sa senzorima i drugim uređajima sa kojih može vršiti prikupljanje metrika. Moguće povezivanje: Ethernet, Wi-Fi, Bluetooth, USB portovi. U našem projektnom zadatku, Raspberry Pi vrši prikupljanje metrika sa 5G komunikacijskog modula. 
 
+### 5G komunikacijski modul - ZYXEL model NR5101 5G New Radio Gateway
+ZYXEL NR5101 je 5G New Radio Gateway dizajniran za pružanje visokih brzina prenosa podataka i stabilne 5G veze za različite aplikacije. Ovaj uređaj omogućava povezivanje s 5G mrežom i koristi se kao komunikacijski modul u eksperimentalnim 5G mrežama. U projektnom zadatku, ovaj modul omogućava povezivanje Raspberry Pi s eksperimentalnom 5G baznom stanicom, čime se omogućava prenos podataka i prikupljanje metrika. 
+
+### Eksperimentalna 5G bazna stanica
 
 ## Izrada
 
