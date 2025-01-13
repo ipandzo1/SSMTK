@@ -8,6 +8,12 @@
 - Izvršiti testiranje usluge prenosa podataka između korisničkog uređaja i bazne stanice uz prikupljanje metrika. Analizirati mjerenja metrika sa bazne stanice i korisničkog uređaja, te utvrditi na koji način su korelisana.
 - Uvesti u eksperimentalnu 5G mrežu dodatne korisničke uređaje (5G modemi, mobiteli i sl.), te izvršiti testiranje usluge prenosa podataka uz prikupljanje metrika za različit broj aktivnih korisničkih uređaja.
 
+## Korišteni uređaji
+
+### Raspberry Pi računar 
+Raspberry Pi je uređaj razvijen za obrazovne svrhe, a poseban zbog svoje fleksibilnosti i niske cijene. Zasnovan je na ARM procesoru i dolazi u različitim modelima sa različitim specifikacijama. Popularan je u IoT projektima zbog svojih kompaktnih dimenzija, te  mogućnosti povezivanja sa senzorima i drugim uređajima sa kojih može vršiti prikupljanje metrika.
+
+
 ## Izrada
 
 ### 1. Realizacija mreže za prenos podataka
