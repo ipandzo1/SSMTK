@@ -11,7 +11,7 @@
 ## Korišteni uređaji
 
 ### Raspberry Pi računar 
-Raspberry Pi je uređaj razvijen za obrazovne svrhe, a poseban zbog svoje fleksibilnosti i niske cijene. Zasnovan je na ARM procesoru i dolazi u različitim modelima sa različitim specifikacijama. Popularan je u IoT projektima zbog svojih kompaktnih dimenzija, te  mogućnosti povezivanja sa senzorima i drugim uređajima sa kojih može vršiti prikupljanje metrika.
+Raspberry Pi je uređaj razvijen za obrazovne svrhe, a poseban zbog svoje fleksibilnosti i niske cijene. Zasnovan je na ARM procesoru i dolazi u različitim modelima sa različitim specifikacijama. Njegov operativni sistem je Raspberry Pi OS (Linux varijanta). Popularan je u IoT projektima zbog svojih kompaktnih dimenzija, te  mogućnosti povezivanja sa senzorima i drugim uređajima sa kojih može vršiti prikupljanje metrika. Moguće povezivanje: Ethernet, Wi-Fi, Bluetooth, USB portovi. U našem projektnom zadatku, Raspberry Pi vrši prikupljanje metrika sa 5G komunikacijskog modula. 
 
 
 ## Izrada
