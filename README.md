@@ -37,3 +37,5 @@ Preostale stavke će biti urađene u nastavku izrade projektnog zadatka.
 ## Literatura
 
 [1] https://tech-academy.amarisoft.com/RemoteAPI_Python.html?fbclid=IwY2xjawHxBRtleHRuA2FlbQIxMAABHfwqKmdrzcyIm2S0pP-jU3k3pf9CRtq1mfuVHuCnKGYWykr4CxvXI8yRIQ_aem_Zl0GhSs5jDZUbE-Zr8OORw
+[2] https://www.raspberrypi.com/
+[3] https://www.zyxel.com/global/en/home
