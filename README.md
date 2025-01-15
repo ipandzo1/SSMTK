@@ -40,3 +40,4 @@ Preostale stavke će biti urađene u nastavku izrade projektnog zadatka.
 [1] https://tech-academy.amarisoft.com/RemoteAPI_Python.html?fbclid=IwY2xjawHxBRtleHRuA2FlbQIxMAABHfwqKmdrzcyIm2S0pP-jU3k3pf9CRtq1mfuVHuCnKGYWykr4CxvXI8yRIQ_aem_Zl0GhSs5jDZUbE-Zr8OORw <br>
 [2] https://www.raspberrypi.com/ <br>
 [3] https://www.zyxel.com/global/en/home
+[4] https://www.amarisoft.com/test-and-measurement/device-testing/device-products/amari-callbox-classic
