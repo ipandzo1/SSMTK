@@ -27,11 +27,11 @@ Realizovana je mreža sačinjena od uređaja: Raspberry Pi računara sa 5G komun
 
 ### 2. Implementacija aplikacije za prikupljanje metrika sa bazne stanice
 
-Napravljena je skripta koja putem Remote API-ja prikuplja podatke sa bazne stanice o kvaliteti signala. Implementacija skripte je u toku, trenutno smo prikupili podatke o CQI i dodatne, a u toku je analiza za preostale.
+Napravljena je skripta `BS_srkipta4.py` koja putem Remote API-ja prikuplja podatke sa bazne stanice o kvaliteti signala. Skripta smješta podatke u CSV datoteku, a u toku je rad na ispravnom ispisu parametara prema traženoj postavci zadatka.
 
 ### 3. Implementacija aplikacije za prikupljanje metrika sa 5G komunikacijskog modula
 
-Implementirana je skripta `qeng.py` za prikupljanje metrika sa 5G modula na Raspberry Pi računaru. Korištene su komande iz dokumentacije 5G modula u upotrebi Quectl RG500Q-GL. Skripta je kreirala traženu CSV datoteku `metrics.csv` koja je prethodno opisana.
+Implementirana je skripta `qeng_skripta2.py` za prikupljanje metrika sa 5G modula na Raspberry Pi računaru. Korištene su komande iz dokumentacije 5G modula u upotrebi Quectl RG500Q-GL. Skripta je kreirala traženu CSV datoteku `metrics.csv` koja je prethodno opisana.
 
 Preostale stavke će biti urađene u nastavku izrade projektnog zadatka.
 
