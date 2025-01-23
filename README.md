@@ -31,7 +31,13 @@ Napravljena je skripta `BS_srkipta4.py` koja putem Remote API-ja prikuplja podat
 
 ### 3. Implementacija aplikacije za prikupljanje metrika sa 5G komunikacijskog modula
 
-Implementirana je skripta `qeng_skripta2.py` za prikupljanje metrika sa 5G modula na Raspberry Pi računaru. Korištene su komande iz dokumentacije 5G modula u upotrebi Quectl RG500Q-GL. Skripta je kreirala traženu CSV datoteku `metrics.csv` koja je prethodno opisana.
+Implementirana je skripta `qeng_skripta2.py` za prikupljanje metrika sa 5G modula na Raspberry Pi računaru. Korištene su komande iz dokumentacije 5G modula u upotrebi Quectl RG500Q-GL. Skripta je kreirala traženu CSV datoteku `metrics_with_timestamps.csv`sa 279 zapisa, tako da svaki red predstavlja jedno mjerenje i sadrži vremenski trenutak mjerenja. Prikupljeni paramteri su: state, mode, duplex_mode, mcc, mnc, cell_id, pcid, tac, arfcn, band, nr_dl_bandwidth, rsrp, rsrq, sinr, tx_power, srxlev, cqi. Objašnjenje parametara od interesa su data u nastavku:
+
+- **SINR (Signal-to-Interference-plus-Noise Ratio)** pokazuje odnos između snage korisničkog signala, interferencije i šuma, gdje viša vrijednost znači bolji kvalitet signala.
+- **CQI (Channel Quality Indicator)** označava kvalitet kanala, pri čemu viša vrijednost znači bolju brzinu prenosa podataka.
+- **RSRP (Reference Signal Received Power)** mjeri snagu signala koju uređaj prima od bazne stanice, gdje niža vrijednost ukazuje na slabiji signal.
+- **RSRQ (Reference Signal Received Quality)** mjeri kvalitet signala u odnosu na snagu interferencije i šuma, gdje niža vrijednost može ukazivati na lošiji kvalitet veze.
+
 
 Preostale stavke će biti urađene u nastavku izrade projektnog zadatka.
 
