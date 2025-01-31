@@ -39,12 +39,12 @@ Realizovana je mreža sačinjena od uređaja: Raspberry Pi računara sa 5G komun
 
 ### 2. Implementacija aplikacije za prikupljanje metrika sa bazne stanice
 
-Napravljena je skripta `BS_srkipta4_finalna.py` koja putem Remote API-ja prikuplja podatke sa bazne stanice o kvaliteti signala. Prikupljene vrijednosti metrika su spremljene u CSV file pod nazivom `output_with_current_timestamps.csv`, tako da svaki red predstavlja jedno mjerenje i sadrži vremenski trenutak mjerenja. Metrike od značaju su - ran_ue_id - koji predstavlja oznaku (ID) uređaja, dl_bitrate,	ul_bitrate,	dl_tx, ul_tx,	dl_retx, ul_retx, pusch_snr,	ul_phr,	ul_path_loss,	cqi.
+Napravljena je skripta `BS_srkipta4_finalna.py` koja putem Remote API-ja prikuplja podatke sa bazne stanice o kvaliteti signala. Prikupljene vrijednosti metrika su spremljene u CSV file pod nazivom `output_with_current_timestamps.csv` sa ukupno 315 zapisa, tako da svaki red predstavlja jedno mjerenje i sadrži vremenski trenutak mjerenja. Metrike od značaju su - ran_ue_id - koji predstavlja oznaku (ID) uređaja, dl_bitrate,	ul_bitrate,	dl_tx, ul_tx,	dl_retx, ul_retx, pusch_snr,	ul_phr,	ul_path_loss,	cqi.
 
 
 ### 3. Implementacija aplikacije za prikupljanje metrika sa 5G komunikacijskog modula
 
-Implementirana je skripta `qeng_skripta2.py` za prikupljanje metrika sa 5G modula na Raspberry Pi računaru. Korištene su komande iz dokumentacije 5G modula u upotrebi Quectl RG500Q-GL. Skripta je kreirala traženu CSV datoteku `metrics_with_timestamps.csv`sa 279 zapisa, tako da svaki red predstavlja jedno mjerenje i sadrži vremenski trenutak mjerenja. Prikupljeni paramteri su: state, mode, duplex_mode, mcc, mnc, cell_id, pcid, tac, arfcn, band, nr_dl_bandwidth, rsrp, rsrq, sinr, tx_power, srxlev, cqi. Objašnjenje parametara od interesa su data u nastavku:
+Implementirana je skripta `qeng_skripta2_finalna.py` za prikupljanje metrika sa 5G modula na Raspberry Pi računaru. Korištene su komande iz dokumentacije 5G modula u upotrebi Quectl RG500Q-GL. Skripta je kreirala traženu CSV datoteku `metrics_with_timestamps.csv`sa 279 zapisa, tako da svaki red predstavlja jedno mjerenje i sadrži vremenski trenutak mjerenja. Prikupljeni paramteri su: state, mode, duplex_mode, mcc, mnc, cell_id, pcid, tac, arfcn, band, nr_dl_bandwidth, rsrp, rsrq, sinr, tx_power, srxlev, cqi. Objašnjenje parametara od interesa su data u nastavku:
 
 - **SINR (Signal-to-Interference-plus-Noise Ratio)** pokazuje odnos između snage korisničkog signala, interferencije i šuma, gdje viša vrijednost znači bolji kvalitet signala.
 - **CQI (Channel Quality Indicator)** označava kvalitet kanala, pri čemu viša vrijednost znači bolju brzinu prenosa podataka.
@@ -52,7 +52,10 @@ Implementirana je skripta `qeng_skripta2.py` za prikupljanje metrika sa 5G modul
 - **RSRQ (Reference Signal Received Quality)** mjeri kvalitet signala u odnosu na snagu interferencije i šuma, gdje niža vrijednost može ukazivati na lošiji kvalitet veze.
 
 
-Preostale stavke će biti urađene u nastavku izrade projektnog zadatka.
+### 4. Testiranje usluge prenosa podataka između korisničkog uređaja i bazne stanice uz prikupljanje metrika
+
+Analizirati mjerenja metrika sa bazne stanice i korisničkog uređaja, te utvrditi na koji način su korelisana.
+
 
 ## Literatura
 
