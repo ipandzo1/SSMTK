@@ -20,11 +20,16 @@ Raspberry Pi je računarski uređaj zasnovan na ARM procesoru. Ističe se zbog s
 ### 5G komunikacijski modul - ZYXEL model NR5101 5G New Radio Gateway
 ZYXEL NR5101 je 5G New Radio Gateway dizajniran za pružanje visokih brzina prenosa podataka i stabilne 5G veze za različite aplikacije. Ovaj uređaj omogućava povezivanje s 5G mrežom i koristi se kao komunikacijski modul u eksperimentalnim 5G mrežama. U projektnom zadatku, ovaj modul omogućava povezivanje Raspberry Pi s eksperimentalnom 5G baznom stanicom, čime se omogućava prenos podataka i prikupljanje metrika. 
 
-![slika2](https://github.com/user-attachments/assets/1e1a7b0a-b1da-48d8-8739-3a735c593111)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ![zyxel](https://github.com/user-attachments/assets/9f0b6b0c-2643-4c47-a8e0-81bc7c831c0a)
 
+*ZYXEL model NR5101 5G New Radio Gateway*
 
 ### Eksperimentalna 5G bazna stanica - AMARISOFT Callbox Classic
 AMARISOFT Callbox Classic predstavlja rješenje za testiranje uređaja u 5G NSA(Non-Standalone) i SA(Standalone), LTE, LTE-M i NB-IoT mrežama. Ovo rješenje je u skladu sa 3GPP standardima i funkcioniše kao eNB/gNB (baza) i EPC/5GC (jezgro mreže). Namjenjeno je funkcionalnom i performansnom testiranju uređaja i mreža, te omogućava fleksibilno podešavanje mrežnih parametara kao što su širina kanala, snaga signala i raspoloživi resursni blokovi. U projektnom zadatku koristi se kao eksperimentalna bazna stanica za kreiranje i testiranje 5G mrežnog okruženja. Istu smo iskoristili za prikupljanje metrika, te analizu performansi prenosa podataka između korisničkih uređaja i bazne stanice.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ![slika2](https://github.com/user-attachments/assets/9643a958-9e0e-4a48-a498-28197d8cc517)
+
+*AMARISOFT Callbox Classic*
 
 ## Izrada
 
