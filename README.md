@@ -39,7 +39,7 @@ Realizovana je mreža sačinjena od uređaja: Raspberry Pi računara sa 5G komun
 
 ### 2. Implementacija aplikacije za prikupljanje metrika sa bazne stanice
 
-Napravljena je skripta `BS_srkipta4_finalna.py` koja putem Remote API-ja prikuplja podatke sa bazne stanice o kvaliteti signala. Prikupljene vrijednosti metrika su spremljene u CSV file pod nazivom `output_with_current_timestamps.csv`, tako svaki red predstavlja jedno mjerenje i sadrži vremenski trenutak mjerenja. Metrike od značaju su - ran_ue_id - koji predstavlja oznaku (ID) uređaja, dl_bitrate,	ul_bitrate,	dl_tx, ul_tx,	dl_retx, ul_retx, pusch_snr,	ul_phr,	ul_path_loss,	cqi.
+Napravljena je skripta `BS_srkipta4_finalna.py` koja putem Remote API-ja prikuplja podatke sa bazne stanice o kvaliteti signala. Prikupljene vrijednosti metrika su spremljene u CSV file pod nazivom `output_with_current_timestamps.csv`, tako da svaki red predstavlja jedno mjerenje i sadrži vremenski trenutak mjerenja. Metrike od značaju su - ran_ue_id - koji predstavlja oznaku (ID) uređaja, dl_bitrate,	ul_bitrate,	dl_tx, ul_tx,	dl_retx, ul_retx, pusch_snr,	ul_phr,	ul_path_loss,	cqi.
 
 
 ### 3. Implementacija aplikacije za prikupljanje metrika sa 5G komunikacijskog modula
