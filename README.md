@@ -14,6 +14,8 @@
 Raspberry Pi je računarski uređaj zasnovan na ARM procesoru. Ističe se zbog svoje fleksibilnosti i niske cijene, te dolazi u različitim modelima sa različitim specifikacijama. Njegov operativni sistem je Raspberry Pi OS (Linux varijanta). Popularan je u IoT projektima zbog svojih kompaktnih dimenzija, te  mogućnosti povezivanja sa senzorima i drugim uređajima sa kojih može vršiti prikupljanje metrika. Moguće povezivanje: Ethernet, Wi-Fi, Bluetooth, USB portovi. U našem projektnom zadatku, Raspberry Pi vrši prikupljanje metrika sa 5G komunikacijskog modula. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ![slikaraspberry](https://github.com/user-attachments/assets/be98b8a0-0e01-4b05-8ac1-1d117a124796)
+
+
 *Raspberry Pi računar*
 
 ### 5G komunikacijski modul - ZYXEL model NR5101 5G New Radio Gateway
