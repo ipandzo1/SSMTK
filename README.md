@@ -54,7 +54,7 @@ Implementirana je skripta `qeng_skripta2_finalna.py` za prikupljanje metrika sa 
 
 ### 4. Testiranje usluge prenosa podataka između korisničkog uređaja i bazne stanice uz prikupljanje metrika
 
-Analizirati mjerenja metrika sa bazne stanice i korisničkog uređaja, te utvrditi na koji način su korelisana.
+
 
 Veći RSRP, SINR i CQI donose veći DL bitrate, ali postoje odstupanja koja ukazuju na interferencije. 
 UL bitrate raste sa povećanjem TX Power, što je očekivano.
