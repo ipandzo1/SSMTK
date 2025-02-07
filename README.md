@@ -54,14 +54,6 @@ Implementirana je skripta `qeng_skripta2_finalna.py` za prikupljanje metrika sa 
 
 ### 4. Testiranje usluge prenosa podataka između korisničkog uređaja i bazne stanice uz prikupljanje metrika
 
-
-
-Veći RSRP, SINR i CQI donose veći DL bitrate, ali postoje odstupanja koja ukazuju na interferencije. 
-UL bitrate raste sa povećanjem TX Power, što je očekivano.
-CQI vrijednosti ne rastu uvijek proporcionalno sa DL bitrate, što može ukazivati na dinamičko prilagođavanje mreže.
-Uočene oscilacije u CQI mogu biti posljedice promjenljivih uslova mreže ili smetnji.
-
-### 5. Testiranje sa 3 uređaja 
 Implementirana je skripta pod nazivom BS_skripta4.py, a rezultati mjerenja su smješteni u CSV file pod nazivom output_with_current_timestamps_3.csv.
 
 Zaključak:
@@ -69,7 +61,7 @@ Zaključak:
 -Uređaj 5 ima najbolje uslove signala i najbolju UL brzinu, što ga čini najstabilnijim za prijenos podataka prema mreži.
 -Uređaj 2 ima najslabije performanse, s najlošijim SNR-om, visokim gubitkom signala i niskim MCS-om.
 
-Naprimjer DL bitrate uređaja 5 i uređaja 2 se ponašaju skoro nezavisno. Promjena brzine jednog uređaja ne utiče značajno na brzinu drugog. Ako postoji interferencija ili opterećenje mreže, ono vjerovatno dolazi iz drugih faktora, a ne direktno iz međusobnog odnosa ovih uređaja. S obzirom na mjerenja dalo bi se zaključiti da se radi o tri nezavisna kanala.
+Naprimjer DL bitrate uređaja 5 i uređaja 2 se ponašaju skoro nezavisno. Promjena brzine jednog uređaja ne utiče značajno na brzinu drugog. Ako postoji interferencija ili opterećenje mreže, ono dolazi iz drugih faktora, a ne direktno iz međusobnog odnosa ovih uređaja. S obzirom na mjerenja dalo bi se zaključiti da se radi o tri nezavisna kanala.
 
 
 ## Literatura
