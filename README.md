@@ -64,6 +64,13 @@ Uočene oscilacije u CQI mogu biti posljedice promjenljivih uslova mreže ili sm
 ### 5. Testiranje sa 3 uređaja 
 Implementirana je skripta pod nazivom BS_skripta4.py, a rezultati mjerenja su smješteni u CSV file pod nazivom output_with_current_timestamps_3.csv.
 
+Zaključak:
+-Uređaj 3 ima najbolji DL protok, ali mu je UL slab.
+-Uređaj 5 ima najbolje uslove signala i najbolju UL brzinu, što ga čini najstabilnijim za prijenos podataka prema mreži.
+-Uređaj 2 ima najslabije performanse, s najlošijim SNR-om, visokim gubitkom signala i niskim MCS-om.
+
+Naprimjer DL bitrate uređaja 5 i uređaja 2 se ponašaju skoro nezavisno. Promjena brzine jednog uređaja ne utiče značajno na brzinu drugog. Ako postoji interferencija ili opterećenje mreže, ono vjerovatno dolazi iz drugih faktora, a ne direktno iz međusobnog odnosa ovih uređaja. S obzirom na mjerenja dalo bi se zaključiti da se radi o tri nezavisna kanala.
+
 
 ## Literatura
 
