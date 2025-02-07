@@ -61,6 +61,10 @@ UL bitrate raste sa povećanjem TX Power, što je očekivano.
 CQI vrijednosti ne rastu uvijek proporcionalno sa DL bitrate, što može ukazivati na dinamičko prilagođavanje mreže.
 Uočene oscilacije u CQI mogu biti posljedice promjenljivih uslova mreže ili smetnji.
 
+### 5. Testiranje sa 3 uređaja 
+Implementirana je skripta pod nazivom BS_skripta4.py, a rezultati mjerenja su smješteni u CSV file pod nazivom output_with_current_timestamps_3.csv.
+
+
 ## Literatura
 
 [1] https://tech-academy.amarisoft.com/RemoteAPI_Python.html?fbclid=IwY2xjawHxBRtleHRuA2FlbQIxMAABHfwqKmdrzcyIm2S0pP-jU3k3pf9CRtq1mfuVHuCnKGYWykr4CxvXI8yRIQ_aem_Zl0GhSs5jDZUbE-Zr8OORw <br>
