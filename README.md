@@ -56,6 +56,10 @@ Implementirana je skripta `qeng_skripta2_finalna.py` za prikupljanje metrika sa 
 
 Analizirati mjerenja metrika sa bazne stanice i korisničkog uređaja, te utvrditi na koji način su korelisana.
 
+Veći RSRP, SINR i CQI donose veći DL bitrate, ali postoje odstupanja koja ukazuju na interferencije. 
+UL bitrate raste sa povećanjem TX Power, što je očekivano.
+CQI vrijednosti ne rastu uvijek proporcionalno sa DL bitrate, što može ukazivati na dinamičko prilagođavanje mreže.
+Uočene oscilacije u CQI mogu biti posljedice promjenljivih uslova mreže ili smetnji.
 
 ## Literatura
 
